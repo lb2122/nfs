@@ -20,9 +20,10 @@ Configuration Steps:
 /nfssh
 are aa
 bb cc
-2) Create new file inside the share directory aa bb cc 3) Packages:
-i) nfs-utils: to un-install the nfs-utils 60
-ii) portmap (please do not uninstall portmap
+2) Create new file inside the share directory aa bb cc 
+3) Packages:
+  i) nfs-utils: to un-install the nfs-utils 60
+  ii) portmap (please do not uninstall portmap
 4)
 services
 nfsport
