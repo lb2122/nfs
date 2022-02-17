@@ -5,6 +5,7 @@ NFS is a protocol for remote access to a file system developed by Sun
 • Client/server architecture
 – Client file system requests are forwarded to a remote server; NFS follows the remote
 access model – Requests are implemented as remote procedure calls (RPCs)
+
 Servers:
 File sharing Server’s:
 1. NFS: Network File System: These servers are used in LAN
@@ -12,6 +13,7 @@ File sharing Server’s:
 3. Samba Server: These servers are used in Linux & Window heterogeneous networks.
 Note: 1. NFS is used in LAN because bandwidth for NFS is more than compared with FTP and Samba.
 2. STP is used in WAN because FTP requires very less bandwidth when compared to NFS.
+
 NFS (Network File System):-
 Configuration Steps:
 1) Copy all the shared files to a single location
