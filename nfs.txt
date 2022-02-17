@@ -27,10 +27,9 @@ services
 nfsportmap
 5)
 Daemons:
-nfsdq
-uotad
-mount
-d
+nfsd
+quotad
+mountd
 6) Main Configuration File: /etc/exports
 
 Experiment:
