@@ -12,7 +12,7 @@ File sharing Server’s:
 2. FTP: File Transfer Protocol: These servers are used in WAN & LAN
 3. Samba Server: These servers are used in Linux & Window heterogeneous networks.
 Note: 1. NFS is used in LAN because bandwidth for NFS is more than compared with FTP and Samba.
-2. STP is used in WAN because FTP requires very less bandwidth when compared to NFS.
+2. FTP is used in WAN because FTP requires very less bandwidth when compared to NFS.
 
 NFS (Network File System):-
 Configuration Steps:
