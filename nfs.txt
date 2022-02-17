@@ -17,19 +17,16 @@ Note: 1. NFS is used in LAN because bandwidth for NFS is more than compared with
 NFS (Network File System):-
 Configuration Steps:
 1) Copy all the shared files to a single location
-/nfssh
-are aa
-bb cc
+/nfsshare aa bb cc
 2) Create new file inside the share directory aa bb cc 
 3) Packages:
   i) nfs-utils: to un-install the nfs-utils 60
-  ii) portmap (please do not uninstall portmap
+  ii) portmap (please do not uninstall portmap)
 4)
 services
-nfsport
-map5)
-Daemon
-s:
+nfsportmap
+5)
+Daemons:
 nfsdq
 uotad
 mount
